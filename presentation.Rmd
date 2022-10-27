@@ -1,0 +1,45 @@
+---
+title: 'Data Science Capstone: Final Project'
+author: "Luis Carlos Méndez"
+date: "10/26/2022"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+<style>
+body {
+text-align: justify}
+</style>
+
+## Summary
+
+This Data Science Capstone course capstone aims to create a product highlighting the prediction algorithm. The word prediction algorithm uses natural language processing to build a model using text extracted from blogs, news, and Twitter provided by SwiftKey. We use N-grams, continuous sequences of words in a document, to predict the next words.
+
+
+## Procedure
+
+To build the app and the predictive model, a series of steps were followed that were:
+
+1. The data used to train the algorithm can be found at the following link [data](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+
+2. The corpus is processed using tm_map to remove punctuation, numbers, whitespaces, stopwords, convert text to lower case and stemDocument.
+
+3. Applying tokenization which is the splitting of a phrase, sentence, paragraph, or an entire text document into smaller units, such as individual words or terms
+
+4. The processed corpus was then tokenized in the n-grams frequency database, namely 2-gram (bi-words), 3-grams (tri-words), and 4-grams (quadwords) with a frequency of occurrence of n.
+
+## Links of Application
+
+In this slide, we can find the codes' links and the application developed based on the algorithm described in the previous slide.
+
+* The shiny App can be find here [ShinyApp](https://luiskarlos.shinyapps.io/DSC-Final/)
+  + The operating instructions are found when running the application in the aforementioned link.  
+
+* The github for the code and other files can be find here [github](https://github.com/lkarlos06/DSC-Final)
+
+
+## Conclusion
+
+This project consisted of training an algorithm based on a series of data from Twitter, news, and blogs, with which a word predictor can be made just as cell phones do today; the training algorithm was performed via NLP. The results obtained are optimal to a certain extent; this is because the training data is only a sample of the data provided, so it is possible that the words predicted by the algorithm may not make grammatical sense on some occasions. Therefore, it is necessary to increase the sample, but doing so would sacrifice algorithm processing time, causing a response delay for the user.
