@@ -1,0 +1,14 @@
+name: DSC-Final
+title: DSC-Final
+username:
+account: luiskarlos
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7435487
+bundleId: 6445504
+url: https://luiskarlos.shinyapps.io/DSC-Final/
+when: 1666842508.46781
+lastSyncTime: 1666842508.46781
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data/gram2.RData|data/gram3.RData|data/gram4.RData|data/gram5.RData|PredictWord.Rmd|presentation.html|presentation.Rmd
